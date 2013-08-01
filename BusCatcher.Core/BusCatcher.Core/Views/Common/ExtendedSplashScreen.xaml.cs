@@ -7,6 +7,7 @@ using System.Windows.Controls;
 using System.Windows.Navigation;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
+using System.Threading.Tasks;
 
 namespace BusCatcher.Core.Views.Common
 {
@@ -15,6 +16,13 @@ namespace BusCatcher.Core.Views.Common
         public ExtendedSplashScreen()
         {
             InitializeComponent();
+            splash_screen();
+        }
+
+        async void splash_screen()
+        {
+            await Task.Delay(TimeSpan.FromSeconds(3));
+            NavigationService.Navigate(new Uri("/Views/CityChooseView.xaml", UriKind.Relative));
         }
     }
 }
