@@ -8,6 +8,10 @@
     <!--Application Resources-->
     <Application.Resources>
         <local:LocalizedStrings xmlns:local="clr-namespace:BusCatcher.Core" x:Key="LocalizedStrings"/>
+        <Style x:Key="ApplicationMotto" TargetType="TextBlock">
+            <Setter Property="Foreground" Value="#064076"/>
+            <Setter Property="Text" Value="Find your way"/>
+        </Style>
     </Application.Resources>
 
     <Application.ApplicationLifetimeObjects>
