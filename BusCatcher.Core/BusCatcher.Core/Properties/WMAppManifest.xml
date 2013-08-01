@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Deployment xmlns="http://schemas.microsoft.com/windowsphone/2012/deployment" AppPlatformVersion="8.0">
   <DefaultLanguage xmlns="" code="en-US" />
-  <App xmlns="" ProductID="{2ff15737-7c0e-4c6f-9acf-e6554c701748}" Title="BusCatcher.Core" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="BusCatcher.Core author" Description="Sample description" Publisher="BusCatcher.Core" PublisherID="{7bc3740d-f1e6-40de-8b94-604744bdec4c}">
+  <App xmlns="" ProductID="{2ff15737-7c0e-4c6f-9acf-e6554c701748}" Title="Bus Catcher" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="BusCatcher.Core author" Description="Sample description" Publisher="BusCatcher.Core" PublisherID="{7bc3740d-f1e6-40de-8b94-604744bdec4c}">
     <IconPath IsRelative="true" IsResource="false">icon_small.png</IconPath>
     <Capabilities>
       <Capability Name="ID_CAP_NETWORKING" />

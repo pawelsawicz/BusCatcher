@@ -1,12 +1,10 @@
-﻿<xapCache source="C:\Users\Paweł\Documents\repos\BusCatcher\BusCatcher.Core\BusCatcher.Core\Bin\Debug\BusCatcher.Core_Debug_AnyCPU.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="2013-07-20 21:51:19">
-  <file source="C:\Users\Paweł\Documents\repos\BusCatcher\BusCatcher.Core\BusCatcher.Core\obj\Debug\BusCatcher.Core.dll" archivePath="BusCatcher.Core.dll" lastWriteTime="2013-07-20 21:51:17" />
-  <file source="C:\Users\Paweł\Documents\repos\BusCatcher\BusCatcher.Core\BusCatcher.Core\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="2013-07-20 21:50:50" />
-  <file source="C:\Users\Paweł\Documents\repos\BusCatcher\BusCatcher.Core\BusCatcher.Core\Assets\Tiles\FlipCycleTileLarge.png" archivePath="Assets\Tiles\FlipCycleTileLarge.png" lastWriteTime="2013-07-20 21:50:50" />
-  <file source="C:\Users\Paweł\Documents\repos\BusCatcher\BusCatcher.Core\BusCatcher.Core\Assets\Tiles\FlipCycleTileSmall.png" archivePath="Assets\Tiles\FlipCycleTileSmall.png" lastWriteTime="2013-07-20 21:50:50" />
-  <file source="C:\Users\Paweł\Documents\repos\BusCatcher\BusCatcher.Core\BusCatcher.Core\Assets\Tiles\IconicTileMediumLarge.png" archivePath="Assets\Tiles\IconicTileMediumLarge.png" lastWriteTime="2013-07-20 21:50:50" />
-  <file source="C:\Users\Paweł\Documents\repos\BusCatcher\BusCatcher.Core\BusCatcher.Core\Assets\Tiles\IconicTileSmall.png" archivePath="Assets\Tiles\IconicTileSmall.png" lastWriteTime="2013-07-20 21:50:50" />
+﻿<xapCache source="C:\Users\Paweł\Documents\repos\BusCatcher\BusCatcher.Core\BusCatcher.Core\Bin\Debug\BusCatcher.Core_Debug_AnyCPU.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="2013-08-01 20:48:36">
+  <file source="C:\Users\Paweł\Documents\repos\BusCatcher\BusCatcher.Core\BusCatcher.Core\obj\Debug\BusCatcher.Core.dll" archivePath="BusCatcher.Core.dll" lastWriteTime="2013-08-01 20:48:35" />
+  <file source="C:\Users\Paweł\Documents\repos\BusCatcher\BusCatcher.Core\BusCatcher.Core\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="2013-07-20 21:50:50" />
+  <file source="C:\Users\Paweł\Documents\repos\BusCatcher\BusCatcher.Core\BusCatcher.Core\Assets\Images\SplashScreenImage.jpg" archivePath="Assets\Images\SplashScreenImage.jpg" lastWriteTime="2013-08-01 20:27:19" />
+  <file source="C:\Users\Paweł\Documents\repos\BusCatcher\BusCatcher.Core\BusCatcher.Core\medium_icon.png" archivePath="medium_icon.png" lastWriteTime="2013-08-01 20:48:11" />
+  <file source="C:\Users\Paweł\Documents\repos\BusCatcher\BusCatcher.Core\BusCatcher.Core\SplashScreenImage.jpg" archivePath="SplashScreenImage.jpg" lastWriteTime="2013-08-01 20:17:11" />
   <file source="C:\Users\Paweł\Documents\repos\BusCatcher\BusCatcher.Core\BusCatcher.Core\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="2013-07-20 21:51:18" />
-  <file source="C:\Users\Paweł\Documents\repos\BusCatcher\BusCatcher.Core\BusCatcher.Core\Bin\Debug\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="2013-07-20 21:50:50" />
-  <file source="C:\Users\Paweł\Documents\repos\BusCatcher\BusCatcher.Core\BusCatcher.Core\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="2013-07-20 21:50:50" />
-  <file source="C:\Users\Paweł\Documents\repos\BusCatcher\BusCatcher.Core\BusCatcher.Core\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="2013-07-20 21:51:19" />
+  <file source="C:\Users\Paweł\Documents\repos\BusCatcher\BusCatcher.Core\BusCatcher.Core\icon_small.png" archivePath="icon_small.png" lastWriteTime="2013-08-01 20:46:35" />
+  <file source="C:\Users\Paweł\Documents\repos\BusCatcher\BusCatcher.Core\BusCatcher.Core\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="2013-08-01 20:48:36" />
 </xapCache>
