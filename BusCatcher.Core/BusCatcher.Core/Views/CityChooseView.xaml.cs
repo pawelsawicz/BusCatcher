@@ -16,5 +16,10 @@ namespace BusCatcher.Core.Views
         {
             InitializeComponent();
         }
+
+        protected override void OnBackKeyPress(System.ComponentModel.CancelEventArgs e)
+        {
+            Application.Current.Terminate();
+        }
     }
 }
