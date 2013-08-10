@@ -41,7 +41,7 @@
                     <TextBlock Style="{StaticResource ApplicationMottoStyle}" Margin="12 0 5 5"/>
                 </Grid>
                 <Grid Grid.Row="2">
-                    <TextBlock Style="{StaticResource PageTitleStyle}"  Margin="12 0 5 5" Text="Search you vehicle"/>
+                    <TextBlock Style="{StaticResource PageTitleStyle}"  Margin="12 0 5 5" Text="Search vehicle"/>
                 </Grid>
             </Grid>
         </Grid>

@@ -8,9 +8,19 @@
     <!--Application Resources-->
     <Application.Resources>
         <local:LocalizedStrings xmlns:local="clr-namespace:BusCatcher.Core" x:Key="LocalizedStrings"/>
-        <Style x:Key="ApplicationMotto" TargetType="TextBlock">
+        <Style x:Key="ApplicationMottoStyle" TargetType="TextBlock">
             <Setter Property="Foreground" Value="#064076"/>
             <Setter Property="Text" Value="Find your way"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+        </Style>
+        <Style x:Key="PageTitleStyle" TargetType="TextBlock">
+            <Setter Property="Foreground" Value="#fff"/>
+            <Setter Property="TextWrapping" Value="Wrap"/>
+            <Setter Property="FontSize" Value="56"/>              
+        </Style>
+        <Style x:Key="ListBoxStyle" TargetType="ListBox">
+            <Setter Property="VerticalAlignment" Value="Center" />
+            <Setter Property="HorizontalAlignment" Value="Center" />
         </Style>
     </Application.Resources>
 

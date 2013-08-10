@@ -21,5 +21,11 @@ namespace BusCatcher.Core.Views
         {
             Application.Current.Terminate();
         }
+
+        private void cityTap(object sender, System.Windows.Input.GestureEventArgs e)
+        {
+            var city  = "";
+            NavigationService.Navigate(new Uri("", UriKind.Relative));
+        }
     }
 }
