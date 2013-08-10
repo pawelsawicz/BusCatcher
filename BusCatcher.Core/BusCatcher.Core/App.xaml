@@ -12,11 +12,13 @@
             <Setter Property="Foreground" Value="#064076"/>
             <Setter Property="Text" Value="Find your way"/>
             <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="FontFamily" Value="Segoe WP"/>
         </Style>
         <Style x:Key="PageTitleStyle" TargetType="TextBlock">
             <Setter Property="Foreground" Value="#fff"/>
             <Setter Property="TextWrapping" Value="Wrap"/>
-            <Setter Property="FontSize" Value="56"/>              
+            <Setter Property="FontSize" Value="56"/>
+            <Setter Property="FontFamily" Value="Segoe WP Light"/>
         </Style>
         <Style x:Key="ListBoxStyle" TargetType="ListBox">
             <Setter Property="VerticalAlignment" Value="Center" />

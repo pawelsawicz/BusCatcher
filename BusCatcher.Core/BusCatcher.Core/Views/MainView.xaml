@@ -35,7 +35,7 @@
                 <Grid.RowDefinitions>
                     <RowDefinition Height="24"/>
                     <RowDefinition Height="40"/>                    
-                    <RowDefinition Height="100" />
+                    <RowDefinition Height="90" />
                 </Grid.RowDefinitions>
                 <Grid Grid.Row="1">
                     <TextBlock Style="{StaticResource ApplicationMottoStyle}" Margin="12 0 5 5"/>
