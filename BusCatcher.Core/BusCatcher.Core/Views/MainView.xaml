@@ -1,0 +1,76 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="BusCatcher.Core.Views.MainView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="50" />
+        </Grid.RowDefinitions>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Assets/Images/gradient_background.png" />
+        </Grid.Background>
+
+        <Grid Grid.Row="0">
+            <!--TitlePanel contains the name of the application and page title-->
+            <Grid Height="300" Width="400" Margin="168,0,-88,0">
+                <Grid.Background>
+                    <ImageBrush ImageSource="/Assets/Images/header_background.png"/>
+                </Grid.Background>                
+            </Grid>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="24"/>
+                    <RowDefinition Height="40"/>                    
+                    <RowDefinition Height="100" />
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="1">
+                    <TextBlock Style="{StaticResource ApplicationMottoStyle}" Margin="12 0 5 5"/>
+                </Grid>
+                <Grid Grid.Row="2">
+                    <TextBlock Style="{StaticResource PageTitleStyle}"  Margin="12 0 5 5" Text="Search you vehicle"/>
+                </Grid>
+            </Grid>
+        </Grid>
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+            <Grid x:Name="MainMap">
+
+            </Grid>
+        </Grid>
+
+        <Grid x:Name="BottomNavigation" Grid.Row="2">
+            <Grid.Background>
+                <ImageBrush ImageSource="/Assets/Images/bottom-navigation.png" />
+            </Grid.Background>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="12"/>
+                <ColumnDefinition Width="35"/>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="35"  />
+                <ColumnDefinition Width="12"/>
+            </Grid.ColumnDefinitions>
+            <Grid  Grid.Column="1" >
+                <Image Source="/Assets/Images/Icons/favourite-icon.png"/>
+            </Grid>
+            <Grid Grid.Column="3">
+                <Image Source="/Assets/Images/Icons/options-icon.png" />
+            </Grid>
+        </Grid>
+    </Grid>
+
+</phone:PhoneApplicationPage>
