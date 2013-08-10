@@ -152,8 +152,14 @@
     <Content Include="Assets\ApplicationIcon.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Assets\Images\bottom-navigation.png" />
+    <Content Include="Assets\Images\button_background.png" />
     <Content Include="Assets\Images\gradient_background.png" />
     <Content Include="Assets\Images\header_background.png" />
+    <Content Include="Assets\Images\Icons\favourite-icon.png" />
+    <Content Include="Assets\Images\Icons\map-icon.png" />
+    <Content Include="Assets\Images\Icons\map_icon.png" />
+    <Content Include="Assets\Images\Icons\options-icon.png" />
     <Content Include="Assets\Images\SplashScreenImage.jpg" />
     <Content Include="icon_small.png" />
     <Content Include="medium_icon.png" />
@@ -167,6 +173,12 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Assets\Tiles\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Phone.Controls, Version=8.0.0.0, Culture=neutral, PublicKeyToken=24eec0d8c86cda1e, processorArchitecture=MSIL" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).$(TargetFrameworkVersion).Overrides.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).CSharp.targets" />

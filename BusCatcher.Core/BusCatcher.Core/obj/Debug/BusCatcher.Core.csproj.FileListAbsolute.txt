@@ -15,3 +15,5 @@ C:\Users\Paweł\Documents\repos\BusCatcher\BusCatcher.Core\BusCatcher.Core\obj\D
 C:\Users\Paweł\Documents\repos\BusCatcher\BusCatcher.Core\BusCatcher.Core\obj\Debug\Views\Common\ExtendedSplashScreen.g.cs
 C:\Users\Paweł\Documents\repos\BusCatcher\BusCatcher.Core\BusCatcher.Core\obj\Debug\Views\BasePortraitTemplate.g.cs
 C:\Users\Paweł\Documents\repos\BusCatcher\BusCatcher.Core\BusCatcher.Core\obj\Debug\Views\MainView.g.cs
+C:\Users\Paweł\Documents\repos\BusCatcher\BusCatcher.Core\BusCatcher.Core\Bin\Debug\Microsoft.Phone.Controls.dll
+C:\Users\Paweł\Documents\repos\BusCatcher\BusCatcher.Core\BusCatcher.Core\obj\Debug\BusCatcher.Core.csprojResolveAssemblyReference.cache

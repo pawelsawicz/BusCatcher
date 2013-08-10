@@ -1,12 +1,19 @@
-﻿<xapCache source="C:\Users\Paweł\Documents\repos\BusCatcher\BusCatcher.Core\BusCatcher.Core\Bin\Debug\BusCatcher.Core_Debug_AnyCPU.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="2013-08-10 18:01:54">
-  <file source="C:\Users\Paweł\Documents\repos\BusCatcher\BusCatcher.Core\BusCatcher.Core\obj\Debug\BusCatcher.Core.dll" archivePath="BusCatcher.Core.dll" lastWriteTime="2013-08-10 18:01:52" />
+﻿<xapCache source="C:\Users\Paweł\Documents\repos\BusCatcher\BusCatcher.Core\BusCatcher.Core\Bin\Debug\BusCatcher.Core_Debug_AnyCPU.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="2013-08-10 22:21:49">
+  <file source="C:\Users\Paweł\Documents\repos\BusCatcher\BusCatcher.Core\BusCatcher.Core\obj\Debug\BusCatcher.Core.dll" archivePath="BusCatcher.Core.dll" lastWriteTime="2013-08-10 22:21:47" />
   <file source="C:\Users\Paweł\Documents\repos\BusCatcher\BusCatcher.Core\BusCatcher.Core\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="2013-07-20 21:50:50" />
+  <file source="C:\Users\Paweł\Documents\repos\BusCatcher\BusCatcher.Core\BusCatcher.Core\Assets\Images\bottom-navigation.png" archivePath="Assets\Images\bottom-navigation.png" lastWriteTime="2013-08-10 18:30:54" />
+  <file source="C:\Users\Paweł\Documents\repos\BusCatcher\BusCatcher.Core\BusCatcher.Core\Assets\Images\button_background.png" archivePath="Assets\Images\button_background.png" lastWriteTime="2013-08-10 20:55:30" />
   <file source="C:\Users\Paweł\Documents\repos\BusCatcher\BusCatcher.Core\BusCatcher.Core\Assets\Images\gradient_background.png" archivePath="Assets\Images\gradient_background.png" lastWriteTime="2013-08-01 21:45:59" />
   <file source="C:\Users\Paweł\Documents\repos\BusCatcher\BusCatcher.Core\BusCatcher.Core\Assets\Images\header_background.png" archivePath="Assets\Images\header_background.png" lastWriteTime="2013-08-01 22:21:06" />
+  <file source="C:\Users\Paweł\Documents\repos\BusCatcher\BusCatcher.Core\BusCatcher.Core\Assets\Images\Icons\favourite-icon.png" archivePath="Assets\Images\Icons\favourite-icon.png" lastWriteTime="2013-08-10 18:51:11" />
+  <file source="C:\Users\Paweł\Documents\repos\BusCatcher\BusCatcher.Core\BusCatcher.Core\Assets\Images\Icons\map-icon.png" archivePath="Assets\Images\Icons\map-icon.png" lastWriteTime="2013-08-10 18:51:11" />
+  <file source="C:\Users\Paweł\Documents\repos\BusCatcher\BusCatcher.Core\BusCatcher.Core\Assets\Images\Icons\map_icon.png" archivePath="Assets\Images\Icons\map_icon.png" lastWriteTime="2013-08-10 20:29:26" />
+  <file source="C:\Users\Paweł\Documents\repos\BusCatcher\BusCatcher.Core\BusCatcher.Core\Assets\Images\Icons\options-icon.png" archivePath="Assets\Images\Icons\options-icon.png" lastWriteTime="2013-08-10 18:51:11" />
   <file source="C:\Users\Paweł\Documents\repos\BusCatcher\BusCatcher.Core\BusCatcher.Core\Assets\Images\SplashScreenImage.jpg" archivePath="Assets\Images\SplashScreenImage.jpg" lastWriteTime="2013-08-01 20:27:19" />
   <file source="C:\Users\Paweł\Documents\repos\BusCatcher\BusCatcher.Core\BusCatcher.Core\medium_icon.png" archivePath="medium_icon.png" lastWriteTime="2013-08-01 20:48:11" />
   <file source="C:\Users\Paweł\Documents\repos\BusCatcher\BusCatcher.Core\BusCatcher.Core\SplashScreenImage.jpg" archivePath="SplashScreenImage.jpg" lastWriteTime="2013-08-01 20:17:11" />
-  <file source="C:\Users\Paweł\Documents\repos\BusCatcher\BusCatcher.Core\BusCatcher.Core\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="2013-08-10 18:01:53" />
+  <file source="C:\Users\Paweł\Documents\repos\BusCatcher\BusCatcher.Core\BusCatcher.Core\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="2013-08-10 21:57:29" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Libraries\Microsoft.Phone.Controls.dll" archivePath="Microsoft.Phone.Controls.dll" lastWriteTime="2012-09-26 14:30:38" />
   <file source="C:\Users\Paweł\Documents\repos\BusCatcher\BusCatcher.Core\BusCatcher.Core\icon_small.png" archivePath="icon_small.png" lastWriteTime="2013-08-01 20:46:35" />
-  <file source="C:\Users\Paweł\Documents\repos\BusCatcher\BusCatcher.Core\BusCatcher.Core\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="2013-08-01 21:26:35" />
+  <file source="C:\Users\Paweł\Documents\repos\BusCatcher\BusCatcher.Core\BusCatcher.Core\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="2013-08-10 21:57:29" />
 </xapCache>
