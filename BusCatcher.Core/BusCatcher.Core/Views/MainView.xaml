@@ -68,7 +68,7 @@
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
             <Grid x:Name="MainMap">
-                <maps:Map x:Name="MainMapControler" Center="47.0666, 125.33331"/>
+                <maps:Map Center="47.6097, -122.3331" HorizontalAlignment="Left" VerticalAlignment="Top" Height="418" Width="456"/>
             </Grid>
         </Grid>
 
