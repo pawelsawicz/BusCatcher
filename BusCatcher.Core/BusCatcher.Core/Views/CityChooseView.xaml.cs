@@ -24,8 +24,8 @@ namespace BusCatcher.Core.Views
 
         private void cityTap(object sender, System.Windows.Input.GestureEventArgs e)
         {
-            var city  = "";
-            NavigationService.Navigate(new Uri("", UriKind.Relative));
+
+            NavigationService.Navigate(new Uri("/Views/MainView.xaml", UriKind.Relative));
         }
     }
 }
