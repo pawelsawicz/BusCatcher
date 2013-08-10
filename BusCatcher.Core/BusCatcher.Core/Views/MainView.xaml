@@ -5,6 +5,7 @@
     xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
     xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:maps="clr-namespace:Microsoft.Phone.Maps.Controls;assembly=Microsoft.Phone.Maps"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     FontFamily="{StaticResource PhoneFontFamilyNormal}"
     FontSize="{StaticResource PhoneFontSizeNormal}"
@@ -25,16 +26,20 @@
         </Grid.Background>
 
         <Grid Grid.Row="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="70" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
             <!--TitlePanel contains the name of the application and page title-->
-            <Grid Height="300" Width="400" Margin="168,0,-88,0">
+            <Grid Grid.Row="0" Grid.RowSpan="2" Height="300" Width="400" Margin="168,0,-88,0">
                 <Grid.Background>
                     <ImageBrush ImageSource="/Assets/Images/header_background.png"/>
-                </Grid.Background>                
+                </Grid.Background>
             </Grid>
-            <Grid>
+            <Grid Grid.Row="0" Grid.RowSpan="2">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="24"/>
-                    <RowDefinition Height="40"/>                    
+                    <RowDefinition Height="40"/>
                     <RowDefinition Height="90" />
                 </Grid.RowDefinitions>
                 <Grid Grid.Row="1">
@@ -44,12 +49,26 @@
                     <TextBlock Style="{StaticResource PageTitleStyle}"  Margin="12 0 5 5" Text="Search vehicle"/>
                 </Grid>
             </Grid>
+            <Grid Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <TextBox Grid.Column="1" Height="54" Width="250" />
+                <Button Grid.Column="2" Height="60" Width="60" BorderBrush="Transparent" Click="Button_Click_1">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/Assets/Images/button_background.png" />
+                    </Button.Background>
+                </Button>
+            </Grid>
         </Grid>
 
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
             <Grid x:Name="MainMap">
-
+                <maps:Map x:Name="MainMapControler" Center="47.0666, 125.33331"/>
             </Grid>
         </Grid>
 
